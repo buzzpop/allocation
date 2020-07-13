@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --color-transparent: #f8f9fa94;
+}
+
+div#main{
+    background: url("../img/Background.jpg") no-repeat ;
+    background-size: cover ;
+    height: 77vh;
+}
+a.nav-link{
+    color: black;
+    font-weight: bold;
+}
+#chambre{
+    background-color: var(--color-transparent);
+}
+#presentation{
+    background-color: var(--color-transparent)!important;
+}
+#menu{
+    background-color:#a9a9a961;
+}
+#tableroom{
+    background-color: #ffffff82;
+    font-size: 20px;
+    font-weight: bold;
+}
+ul .page-link{
+    color: #000000;
+    background-color: #ffffff87;
+    border: 2px solid #dee2e6;
+    font-weight: bold;
+}
+#modal{
+   background-color:  #ffffffba;
+    font-weight: bold;
+}
+
+#etudiant{
+    background-color: var(--color-transparent)!important;
+    height: 450px;
+    overflow: scroll;
+}
+#popupEtudiant{
+    height: 450px;
+    overflow: scroll;
+}
